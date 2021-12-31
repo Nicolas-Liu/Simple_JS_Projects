@@ -8,5 +8,4 @@ function computeLoan() {
     let payment = ((amount / months) + interest).toFixed(2);
     
     document.getElementById('payment').innerHTML = "You will owe " + payment + "$ per month."
-    console.log(payment);
 };
