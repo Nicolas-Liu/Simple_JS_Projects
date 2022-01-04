@@ -1,0 +1,21 @@
+.btns {
+  margin-bottom: 10px;
+}
+
+body {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.winner {
+  margin-top: 6px;
+  font-weight: 600;
+}
